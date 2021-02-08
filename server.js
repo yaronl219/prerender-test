@@ -7,5 +7,5 @@ server.use(prerender.sendPrerenderHeader());
 // server.use(prerender.blockResources());
 server.use(prerender.removeScriptTags());
 server.use(prerender.httpHeaders());
-
+console.log('prerender server is running')
 server.start();
